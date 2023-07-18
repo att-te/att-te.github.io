@@ -1,0 +1,15 @@
+site:
+  title:
+    pt: Meu Site
+
+
+nav:
+  home:
+    pt: Página Inicial
+  about:
+    pt: Sobre
+
+
+footer:
+  text:
+    pt: '&copy; 2022 Meu Site. Todos os direitos reservados.'

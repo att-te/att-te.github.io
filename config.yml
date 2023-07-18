@@ -1,0 +1,14 @@
+baseURL: 'http://example.org/'
+title: 'Att-te'
+theme: "att-theme"
+
+# Configure your desired language settings
+defaultContentLanguage: pt
+# defaultContentLanguageInSubdir: true
+languages:
+  pt:
+    languageName: Português
+    weight: 1
+  en:
+    languageName: English
+    weight: 2
