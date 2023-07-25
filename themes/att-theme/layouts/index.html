@@ -1,0 +1,72 @@
+{{ define "main" }}
+<div class="mx-auto mt-8">
+  <div class="grid grid-cols-1 gap-4 justify-center">
+    <div class="flex flex-col items-center p-4">
+      <div class="w-28">
+        {{ $section1 := resources.Get "/images/section-1.jpg" }}
+        <img src="{{ $section1.RelPermalink }}" alt="attente" class="mx-auto">
+      </div>
+      <div class="max-w-sm">
+        <p class="mt-2 text-lg text-center">
+          vivemos uma crise atencional que pões em perigo nossa soberania e saúde
+        </p>
+        <a class="block px-4 py-2 mx-auto mt-2 text-lg font-bold text-center" href="#">
+          -> leia mais sobre atenção regenerativa
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center p-4">
+      <div class="w-28">
+        {{ $section2 := resources.Get "/images/section-2.jpg" }}
+        <img src="{{ $section2.RelPermalink }}" alt="attente" class="mx-auto">
+      </div>
+      <div class="max-w-sm">
+        <p class="mt-2 text-lg text-center">
+          existe uma possibilidade de atenção que nos é natural e carregas sementes de potencial evolucionário: atenção viva
+        </p>
+        <a class="block px-4 py-2 mx-auto mt-2 text-lg font-bold text-center" href="#">
+          -> leia mais sobre atenção regenerativa
+        </a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center p-4">
+      <div class="w-28">
+        {{ $section3 := resources.Get "/images/menu-destaque.jpg" }}
+        <img src="{{ $section3.RelPermalink }}" alt="attente" class="mx-auto">
+      </div>
+      <div class="max-w-sm">
+        <p class="mt-2 text-lg text-center">
+        a proposta de attentē é reconhecer e co-criar santuários de atenção, onde e quando nutrimos nossa sensibilidade, conexão e entrega ao mundo
+        </p>
+        <a class="block px-4 py-2 mx-auto mt-2 text-lg font-bold text-center" href="#">
+          -> leia mais sobre atenção regenerativa
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid grid-cols-2 gap-4 mt-8 md:grid-cols-5">
+    <div class="p-4 bg-gray-100">
+      <img src="caminho/para/imagem4.jpg" alt="Imagem 4" class="mx-auto">
+      <a href="#" class="block mt-2 text-center">MANIFESTO DA ATENÇÃO VIVA</a>
+    </div>
+    <div class="p-4 bg-gray-100">
+      <img src="caminho/para/imagem5.jpg" alt="Imagem 5" class="mx-auto">
+      <a href="#" class="block mt-2 text-center">JOGO SANTUÁRIOS</a>
+    </div>
+    <div class="p-4 bg-gray-100">
+      <img src="caminho/para/imagem6.jpg" alt="Imagem 6" class="mx-auto">
+      <a href="#" class="block mt-2 text-center">DESIGN DE EXPERIÊNCIAS ATENCIONAIS</a>
+    </div>
+    <div class="p-4 bg-gray-100">
+      <img src="caminho/para/imagem7.jpg" alt="Imagem 7" class="mx-auto">
+      <a href="#" class="block mt-2 text-center">COMUNIDADE ATTENTĒ</a>
+    </div>
+    <div class="p-4 bg-gray-100">
+      <img src="caminho/para/imagem7.jpg" alt="Imagem 7" class="mx-auto">
+      <a href="#" class="block mt-2 text-center">
+        TRILHAS EVOLUCIONÁRIAS
+      </a>
+    </div>
+  </div>
+{{ end }}
